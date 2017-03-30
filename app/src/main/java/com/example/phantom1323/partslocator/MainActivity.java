@@ -18,5 +18,6 @@ public class MainActivity extends AppCompatActivity {
                 search = editText.getText().toString();
             }
         });
+        editText.setText("This is not done");
     }
 }
